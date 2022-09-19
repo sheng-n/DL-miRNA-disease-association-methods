@@ -59,7 +59,7 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 
 ## Deep learning models for predicting MDAs
 ### Autoencoder
-1. **[DeepMDA]** Hu J, Gao Y, Li J et al. Deep Learning Enables Accurate Prediction of Interplay Between lncRNA and Disease, Frontiers in genetics 2019;10. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2019.00937/full "Click") [**[Code]**](https://github.com/gao793583308/NNLDA "Click") 
+1. **[DeepMDA]** Fu L, Peng Q. A deep ensemble model to predict miRNA-disease association, Scientific Reports 2017;7(1):14482. [**[Download]**](https://www.nature.com/articles/s41598-017-15235-6 "Click") [**[Code]**](https://github.com/gao793583308/NNLDA "Click") 
 
 2. **[DRMLDA]** Zeng M, Lu C, Fei Z et al. DMFLDA: A Deep Learning Framework for Predicting lncRNA–Disease Associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(6):2353-2363. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9054949 "Click") [**[Code]**](https://github.com/CSUBioGroup/DMFLDA "Click")
 
@@ -89,6 +89,10 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 
 15. **[DBMDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
 
+16. **[VAEMDA]** Su X, You Z, Yi H. Prediction of LncRNA-Disease Associations Based on Network Representation Learning. In: 2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2020, p.1805-1812. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9313139 "Click") 
+
+17. **[SVAEMDA]** Sheng N, Cui H, Zhang T et al. Attentional multi-level representation encoding based on convolutional and variance autoencoders for lncRNA–disease association prediction, Briefings in Bioinformatics 2020;22(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/3/bbaa067/5841901?login=false "Click") 
+
 ### Multi-layer perceptron
 1. **[EPMDA]** Xuan P, Cao Y, Zhang T et al. Dual Convolutional Neural Networks With Attention Mechanisms Based Method for Predicting Disease-Related lncRNA Genes, Frontiers in genetics 2019;10. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2019.00416/full "Click") 
 
@@ -101,13 +105,7 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 
 3. **[DNRLCNN]** Guo Z-H, You Z-H, Wang Y-B et al. A Learning-Based Method for LncRNA-Disease Association Identification Combing Similarity Information and Rotation Forest, iScience 2019;19:786-795. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2589004219303086 "Click") 
 
-### Variational autoencoder
-4. **[VAEMDA]** Su X, You Z, Yi H. Prediction of LncRNA-Disease Associations Based on Network Representation Learning. In: 2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2020, p.1805-1812. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9313139 "Click") 
-
-5. **[SVAEMDA]** Sheng N, Cui H, Zhang T et al. Attentional multi-level representation encoding based on convolutional and variance autoencoders for lncRNA–disease association prediction, Briefings in Bioinformatics 2020;22(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/3/bbaa067/5841901?login=false "Click") 
-
-
-### Other methonds
+### Other deep learning methonds
 1. **[CEMDA]** Yang Q, Li X. BiGAN: LncRNA-disease association prediction based on bidirectional generative adversarial network, BMC Bioinformatics 2021;22(1):357. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/TomasYang001/BiGAN-lncRNA-disease-associations-prediction "Click")
 2. **[GMDA]** Yang Q, Li X. BiGAN: LncRNA-disease association prediction based on bidirectional generative adversarial network, BMC Bioinformatics 2021;22(1):357. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/TomasYang001/BiGAN-lncRNA-disease-associations-prediction "Click")
 
