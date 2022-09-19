@@ -59,55 +59,57 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 
 ## Deep learning models for predicting MDAs
 ### Autoencoder
-1. **[DeepMDA]** Fu L, Peng Q. A deep ensemble model to predict miRNA-disease association, Scientific Reports 2017;7(1):14482. [**[Download]**](https://www.nature.com/articles/s41598-017-15235-6 "Click") [**[Code]**](https://github.com/gao793583308/NNLDA "Click") 
+1. **[DeepMDA]** Fu L, Peng Q. A deep ensemble model to predict miRNA-disease association, Scientific Reports 2017;7(1):14482. [**[Download]**](https://www.nature.com/articles/s41598-017-15235-6 "Click") [**[Code]**](https://github.com/sperfu/DeepMDA "Click") 
 
-2. **[DRMLDA]** Zeng M, Lu C, Fei Z et al. DMFLDA: A Deep Learning Framework for Predicting lncRNA–Disease Associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021;18(6):2353-2363. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9054949 "Click") [**[Code]**](https://github.com/CSUBioGroup/DMFLDA "Click")
+2. **[DRMLDA]** Chen X, Gong Y, Zhang D-H et al. DRMDA: deep representations-based miRNA–disease association prediction, Journal of Cellular and Molecular Medicine 2018;22(1):472-485. [**[Download]**](https://onlinelibrary.wiley.com/doi/full/10.1111/jcmm.13336 "Click")
 
-3. **[MLMDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+3. **[MLMDA]** Zheng K, You Z-H, Wang L et al. MLMDA: a machine learning approach to predict and validate MicroRNA–disease associations by integrating of heterogenous information sources, Journal of Translational Medicine 2019;17(1):260. [**[Download]**](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-019-2009-x "Click") 
 
-4. **[DFELMDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+4. **[DFELMDA]** Liu W, Lin H, Huang L et al. Identification of miRNA–disease associations via deep forest ensemble learning based on autoencoder, Briefings in Bioinformatics 2022;23(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/3/bbac104/6553934?login=false "Click") [**[Code]**](https://github.com/Zj-Teng/DFELMDA "Click") 
 
-5. **[MDA-CF]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+5. **[MDA-CF]** Dai Q, Chu Y, Li Z et al. MDA-CF: Predicting MiRNA-Disease associations based on a cascade forest model by fusing multi-source information, Computers in Biology and Medicine 2021;136:104706. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S001048252100500X "Click") [**[Code]**](https://github.com/a1622108/MDA-CF "Click") 
 
-6. **[PMDFI]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+6. **[PMDFI]** Tang M, Liu C, Liu D et al. PMDFI: Predicting miRNA–Disease Associations Based on High-Order Feature Interaction, Frontiers in genetics 2021;12. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2021.656107/full "Click") 
 
-7. **[MSCNE]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+7. **[MSCNE]** Han G, Kuang Z, Deng L. MSCNE:Predict miRNA-Disease Associations Using Neural Network based on Multi-source Biological Information, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/document/9519511 "Click")
 
-8. **[SMALF]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+8. **[SMALF]** Liu D, Huang Y, Nie W et al. SMALF: miRNA-disease associations prediction based on stacked autoencoder and XGBoost, BMC Bioinformatics 2021;22(1):219. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04135-2 "Click") [**[Code]**](https://github.com/dayunliu/SMALF "Click") 
 
-9. **[MDA-CNN]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+9. **[MDA-CNN]** Peng J, Hui W, Li Q et al. A learning-based framework for miRNA-disease association identification using neural networks, Bioinformatics 2019;35(21):4364-4371. [**[Download]**](https://academic.oup.com/bioinformatics/article/35/21/4364/5448859?login=false "Click") [**[Code]**](https://github.com/
+Issingjessica/MDA-CNN "Click") 
 
-10. **[AEMDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+10. **[AEMDA]** Ji C, Gao Z, Ma X et al. AEMDA: inferring miRNA–disease associations based on deep autoencoder, Bioinformatics 2020;37(1):66-72. [**[Download]**](https://github.com/CunmeiJi/AEMDA "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
 
-11. **[iMDA-BN]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+11. **[iMDA-BN]** Zheng K, You Z-H, Wang L et al. iMDA-BN: Identification of miRNA-disease associations based on the biological network and graph embedding algorithm, Computational and Structural Biotechnology Journal 2020;18:2391-2400. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2001037020303767 "Click")
 
-12. **[DANE-MDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+12. **[DANE-MDA]** 	Ji B-Y, You Z-H, Wang Y et al. DANE-MDA: Predicting microRNA-disease associations via deep attributed network embedding, iScience 2021;24(6):102455. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2589004221004235 "Click") [**[Code]**](https://github.com/jiboya123/DANE-MDA "Click") 
 
-13. **[DBNMDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+13. **[DBNMDA]** Chen X, Li T-H, Zhao Y et al. Deep-belief network for predicting potential miRNA-disease associations, Briefings in Bioinformatics 2020;22(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/3/bbaa186/5898648?login=false "Click") 
 
-14. **[SAEMD]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+14. **[SAEMD]** Wang C-C, Li T-H, Huang L et al. Prediction of potential miRNA–disease associations based on stacked autoencoder, Briefings in Bioinformatics 2022;23(2). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/2/bbac021/6529883?login=false "Click") [**[Code]**](https://github.com/xpnbs/SAEMDA "Click") 
 
-15. **[DBMDA]** Zeng M, Lu C, Zhang F et al. SDLDA: lncRNA-disease association prediction based on singular value decomposition and deep learning, Methods 2020;179:73-80. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1046202320300013 "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+15. **[DBMDA]** Zheng K, You Z-H, Wang L et al. DBMDA: A Unified Embedding for Sequence-Based miRNA Similarity Measure with Applications to Predict and Validate miRNA-Disease Associations, Molecular Therapy - Nucleic Acids 2020;19:602-611. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2162253119304056 "Click") 
 
-16. **[VAEMDA]** Su X, You Z, Yi H. Prediction of LncRNA-Disease Associations Based on Network Representation Learning. In: 2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2020, p.1805-1812. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9313139 "Click") 
+16. **[VAEMDA]** Zhang L, Chen X, Yin J. Prediction of Potential miRNA–Disease Associations Through a Novel Unsupervised Deep Learning Framework with Variational Autoencoder, Cells 2019;8(9):1040. [**[Download]**](https://www.mdpi.com/2073-4409/8/9/1040 "Click") 
 
-17. **[SVAEMDA]** Sheng N, Cui H, Zhang T et al. Attentional multi-level representation encoding based on convolutional and variance autoencoders for lncRNA–disease association prediction, Briefings in Bioinformatics 2020;22(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/3/bbaa067/5841901?login=false "Click") 
+17. **[SVAEMDA]** Ji C, Wang Y, Gao Z et al. A Semi-Supervised Learning Method for MiRNA-Disease Association Prediction Based on Variational Autoencoder, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2022;19(4):2049-2059. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9381658 "Click") 
 
 ### Multi-layer perceptron
-1. **[EPMDA]** Xuan P, Cao Y, Zhang T et al. Dual Convolutional Neural Networks With Attention Mechanisms Based Method for Predicting Disease-Related lncRNA Genes, Frontiers in genetics 2019;10. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2019.00416/full "Click") 
+1. **[EPMDA]** Dong Y, Sun Y, Qin C et al. EPMDA: Edge Perturbation Based Method for miRNA-Disease Association Prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020;17(6):2170-2175. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/8827911 "Click") 
 
-2. **[MLRDFM]** Xuan P, Jia L, Zhang T et al. LDAPred: A Method Based on Information Flow Propagation and a Convolutional Neural Network for the Prediction of Disease-Associated lncRNAs, International journal of molecular sciences 2019;20(18). [**[Download]**](https://www.mdpi.com/1422-0067/20/18/4458 "Click") 
+2. **[MLRDFM]** Ding Y, Lei X, Liao B et al. MLRDFM: a multi-view Laplacian regularized DeepFM model for predicting miRNA-disease associations, Briefings in Bioinformatics 2022;23(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/3/bbac079/6552270?login=false "Click") [**[Code]**](https://github.com/XYDBCS/MLRDFM "Click") 
 
 ### Convolutional neural network 
-1. **[CNNDMP]** Xuan P, Sheng N, Zhang T et al. CNNDLP: A Method Based on Convolutional Autoencoder and Convolutional Neural Network with Adjacent Edge Attention for Predicting lncRNA–Disease Associations, International journal of molecular sciences 2019;20(17). [**[Download]**](https://www.mdpi.com/1422-0067/20/17/4260 "Click") 
+1. **[CNNDMP]** Xuan P, Dong Y, Guo Y et al. Dual Convolutional Neural Network Based Method for Predicting Disease-Related miRNAs, International journal of molecular sciences 2018;19(12):3732. [**[Download]**](https://www.mdpi.com/1422-0067/19/12/3732 "Click") 
 
-2. **[CNNMDA]** Zhang Y, Ye F, Xiong D et al. LDNFSGB: prediction of long non-coding rna and disease association using network feature similarity and gradient boosting, BMC Bioinformatics 2020;21(1):377. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03721-0 "Click") [**[Code]**](https://github.com/MLMIP/LDNFSGB "Click") 
+2. **[CNNMDA]** Xuan P, Sun H, Wang X et al. Inferring the Disease-Associated miRNAs Based on Network Representation Learning and Convolutional Neural Networks, International journal of molecular sciences 2019;20(15):3648. [**[Download]**](https://www.mdpi.com/1422-0067/20/15/3648 "Click") 
 
-3. **[DNRLCNN]** Guo Z-H, You Z-H, Wang Y-B et al. A Learning-Based Method for LncRNA-Disease Association Identification Combing Similarity Information and Rotation Forest, iScience 2019;19:786-795. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2589004219303086 "Click") 
+3. **[DNRLCNN]** Zhong J, Zhou W, Kang J et al. DNRLCNN: A CNN Framework for Identifying MiRNA–Disease Associations Using Latent Feature Matrix Extraction with Positive Samples, Interdisciplinary Sciences: Computational Life Sciences 2022;14(2):607-622. [**[Download]**](https://link.springer.com/article/10.1007/s12539-022-00509-z "Click") 
 
 ### Other deep learning methonds
-1. **[CEMDA]** Yang Q, Li X. BiGAN: LncRNA-disease association prediction based on bidirectional generative adversarial network, BMC Bioinformatics 2021;22(1):357. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/TomasYang001/BiGAN-lncRNA-disease-associations-prediction "Click")
-2. **[GMDA]** Yang Q, Li X. BiGAN: LncRNA-disease association prediction based on bidirectional generative adversarial network, BMC Bioinformatics 2021;22(1):357. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/TomasYang001/BiGAN-lncRNA-disease-associations-prediction "Click")
+1. **[CEMDA]** Liu B, Zhu X, Zhang L et al. Combined embedding model for MiRNA-disease association prediction, BMC Bioinformatics 2021;22(1):161. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/liubailong/CEMDA "Click")
+
+2. **[GMDA]** Xuan P, Wang D, Cui H et al. Integration of pairwise neighbor topologies and miRNA family and cluster attributes for miRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab428/6385813?login=false "Click")
 
 ## Graph neural models for predicting MDAs 
 ### graph convolutional network
