@@ -31,32 +31,32 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 ### miRNA-disease association data resources
 | Database  | Description  | URL | 
 |:------------------:|:-----:|:---------------: |
-|HMDD v3.2 | Documents 19,166 lncRNAs, 529 diseases and 10,564 association in Homo sapiens, Mus musculus, Rattus norvegicus and Gallus gallus  | http://www.cuilab.cn/hmdd|
-|dbDEMC 3.0    |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |https://www.biosino.org/dbDEMC|
-|miR2Disease    |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://www.mir2disease.org/|
-|miRCancer   |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://mircancer.ecu.edu/ |
-|miRwayD   |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://www.mirway.iitkgp.ac.in/ |
-|MNDR v4.0           |Records 39,880 lncRNA, over 1,600 diseases and 295,834 associations in 11 mammals |http://www.rnadisease.org/ |
+|HMDD v3.2 | Collects 35547 experimentally confirmed MDAs, involving 1206 miRNA genes and 893 diseases |http://www.cuilab.cn/hmdd |
+|dbDEMC 3.0    |Contains 3268 differentially expressed miRNAs for 40 cancer types from humans, mics, and rats|https://www.biosino.org/dbDEMC|
+|miR2Disease   |Records 349 miRNAs, 163 diseases, and 3273 entries|http://www.mir2disease.org/|
+|miRCancer     |Provides 9080 associations between 196 human cancers and 57984 miRNAs|http://mircancer.ecu.edu/ |
+|miRwayD       |Collects 663 miRNA-pathway association entries for 76 diseases, involving 232 miRNAs, 122 pathways, and 328 targeted genes|http://www.mirway.iitkgp.ac.in/ |
+|MNDR (RNADisease v4.0)|Stores 343,273 associations between more than 18 RNA categories, 117 species, and 4090 diseases|http://www.rnadisease.org/ |
 
 ### miRNA-related data resources
 | Database  | Description  | URL | 
 |:------------------:|:-----:|:---------------: |
-|miRbase v22  | An archive of functional genomics datas  | https://www.mirbase.org/
-|mirTarbase    |Records the comprehensive knowledge database of ncRNA from 39 speciesn |https://miRTarBase.cuhk.edu.cn/ |
-|miRWalk |Documents ncRNA sequences for 296 species  |http://mirwalk.umm.uni-heidelberg.de/|
-|starbase (ENCORI)   |Collects sequence, structure, function and phenotype information of experimentally validated lncRNAs|https://starbase.sysu.edu.cn/|
-|lncRNASNP2|Records lncRNA-miRNA, miRNA-mRNA, ncRNA-RNA interactions information| http://bioinfo.life.hust.edu.cn/lncRNASNP|
-|miREnvironment    |Documents the regulatory interactions between ncRNAs and other biomolecules|http://www.cuilab.cn/miren|
+|miRbase v22   | Responsible for miRNA naming and is the primary public repository for miRNA sequences and annotations | https://www.mirbase.org/
+|mirTarbase    |Stores experimentally verified miRNA-target interactions. containing 19912394 interactions between 4630 miRNAs and 27172 mRNAs (target genes)|https://miRTarBase.cuhk.edu.cn/ |
+|miRWalk       |Provides experimentally verified miRNA-gene interactions|http://mirwalk.umm.uni-heidelberg.de/|
+|starbase (ENCORI)  |Collects regulatory relationships on miRNA-ceRNA, miRNA-ncRNA, and protein-RNA interaction|https://starbase.sysu.edu.cn/|
+|lncRNASNP2  |Contains experimentally verified miRNA-lncRNA interactions| http://bioinfo.life.hust.edu.cn/lncRNASNP|
+|miREnvironment|Records experimentally supported interactions between miRNAs, environmental factors, and phenotypes|http://www.cuilab.cn/miren|
 
 
 ### Disease-related data resources
 | Database  | Description  | URL | 
 |:------------------:|:-----:|:---------------: |
-|MeSH  | The DO semantically integrates disease and medical vocabularies  | http://www.nlm.nih.gov/ |
-|HPO     |A comprehensive logical standard for describing and computationally analyzing phenotypic abnormalities found in human diseases |https://hpo.jax.org/app/ |
-|OMIM  |Describes genes with known sequence and phenotypes   |http://www.ncbi.nlm.nih.gov/omim  |
-|DisGeNet   |Collects 30,170 diseases, 21,671 genes and 1124,942 associations|https://www.disgenet.org/|
-|LncRNADisease|Records 893 diseases, 1,206 miRNAs and 35,547 associations in human| http://www.rnanut.net/lncrnadisease/|
+|MeSH   | Is the NLM controlled vocabulary thesaurus used for indexing, cataloging, and searching of biomedical and health-related information  | http://www.nlm.nih.gov/ |
+|HPO     |Offers a comprehensive logical standard to depict and computationally analyze phenotypic abnormalities within human disease |https://hpo.jax.org/app/ |
+|OMIM  |Records collated information about genes and genetic phenotypes and the relations between them, with 26,588 entries covering 7,248 diseases and 4,685 genes|http://www.ncbi.nlm.nih.gov/omim  |
+|DisGeNet   |Contains publicly available collections of genes and variants related to human diseases|https://www.disgenet.org/|
+|LncRNADisease|Provides experimentally verified and predicted lncRNA-disease associations and circRNA-disease associations, as well as regulatory relationships between lncRNAs, mRNAs, and miRNAs| http://www.rnanut.net/lncrnadisease/|
 
 ## Classical deep learning models for predicting MDAs
 ### Autoencoder
@@ -113,7 +113,7 @@ Issingjessica/MDA-CNN "Click")
 
 2. **[Zhu’s method]** Zhu R, Ji C, Wang Y et al. Heterogeneous graph convolutional networks and matrix completion for miRNA-disease association prediction, Frontiers in bioengineering and biotechnology 2020;8:901. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fbioe.2020.00901/full "Click") 
 
-3. **[NIMCGCN]** Li J, Zhang S, Liu T et al. Neural inductive matrix completion with graph convolutional networks for miRNA-disease association prediction, Bioinformatics 2020;36(8):2538-2546. [**[Download]**]https://academic.oup.com/bioinformatics/article/36/8/2538/5697092 "Click") [**[Code]**](https://github.com/ljatynu/NIMCGCN/ "Click")
+3. **[NIMCGCN]** Li J, Zhang S, Liu T et al. Neural inductive matrix completion with graph convolutional networks for miRNA-disease association prediction, Bioinformatics 2020;36(8):2538-2546. [**[Download]**](https://academic.oup.com/bioinformatics/article/36/8/2538/5697092 "Click") [**[Code]**](https://github.com/ljatynu/NIMCGCN/ "Click")
 
 4. **[FCGCNMDA]** Li J, Li Z, Nie R et al. FCGCNMDA: predicting miRNA-disease associations by applying fully connected graph convolutional networks, Molecular Genetics and Genomics 2020;295(5):1197-1209. [**[Download]**](https://link.springer.com/article/10.1007/s00438-020-01693-7 "Click")
 
