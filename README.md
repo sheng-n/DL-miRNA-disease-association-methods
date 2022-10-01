@@ -19,7 +19,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Graph attention network](#Graph-attention-network)
   - [Graph autoencoder](#Graph-autoencoder)
 * [Other deep learning methonds](#Other-deep-learning-methonds) 
-* [ A Summary of Methodology Details for predicting MDAs](# A-Summary-of-Methodology-Details-for-predicting-MDAs) 
+* [A Summary of Methodology Details for predicting MDAs](#A-Summary-of-Methodology-Details-for-predicting-MDAs) 
 
 
 ## Overview
