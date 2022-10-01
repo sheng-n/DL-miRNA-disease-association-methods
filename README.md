@@ -76,8 +76,7 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 
 8. **[SMALF]** Liu D, Huang Y, Nie W et al. SMALF: miRNA-disease associations prediction based on stacked autoencoder and XGBoost, BMC Bioinformatics 2021;22(1):219. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04135-2 "Click") [**[Code]**](https://github.com/dayunliu/SMALF "Click") 
 
-9. **[MDA-CNN]** Peng J, Hui W, Li Q et al. A learning-based framework for miRNA-disease association identification using neural networks, Bioinformatics 2019;35(21):4364-4371. [**[Download]**](https://academic.oup.com/bioinformatics/article/35/21/4364/5448859?login=false "Click") [**[Code]**](https://github.com/
-Issingjessica/MDA-CNN "Click") 
+9. **[MDA-CNN]** Peng J, Hui W, Li Q et al. A learning-based framework for miRNA-disease association identification using neural networks, Bioinformatics 2019;35(21):4364-4371. [**[Download]**](https://academic.oup.com/bioinformatics/article/35/21/4364/5448859?login=false "Click") [**[Code]**](https://github.com/Issingjessica/MDA-CNN "Click") 
 
 10. **[AEMDA]** Ji C, Gao Z, Ma X et al. AEMDA: inferring miRNA–disease associations based on deep autoencoder, Bioinformatics 2020;37(1):66-72. [**[Download]**](https://github.com/CunmeiJi/AEMDA "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
 
