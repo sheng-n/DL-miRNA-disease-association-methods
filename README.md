@@ -19,6 +19,8 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Graph attention network](#Graph-attention-network)
   - [Graph autoencoder](#Graph-autoencoder)
 * [Other deep learning methonds](#Other-deep-learning-methonds) 
+* [ A Summary of Methodology Details for predicting MDAs](# A-Summary-of-Methodology-Details-for-predicting-MDAs) 
+
 
 ## Overview
 * We collect miRNA- and disease-related databases for MDA prediction, including miRNA-disease association databases, miRNA-related databases, and disease-related databases. 
@@ -158,6 +160,59 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 1. **[CEMDA]** Liu B, Zhu X, Zhang L et al. Combined embedding model for MiRNA-disease association prediction, BMC Bioinformatics 2021;22(1):161. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/liubailong/CEMDA "Click")
 
 2. **[GMDA]** Xuan P, Wang D, Cui H et al. Integration of pairwise neighbor topologies and miRNA family and cluster attributes for miRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab428/6385813?login=false "Click")
+
+
+## A Summary of Methodology Details for predicting MDAs
+| Methods  | Descriptions | Program code | 
+|:------------------:|:-----:|:---------------: |
+|DeepMDA      |A novel method based on stacked autoencoders and deep neural networks that encode integrated miRNAs and disease similarities|[http://mirwalk.umm.uni-heidelberg.de/](https://github.com/sperfu/DeepMDA)|
+| DRMLDA|A computational model using stacked autoencoders and SVM in integrated miRNAs and disease similarities | NA|
+| MLMDA|A framework that incorporates multi-source similarity information with stacked autoencoder and RF | NA|
+| DFELMDA| A method based on autoencoder and RF for predicting MDAs| https://github.com/Zj-Teng/DFELMDA|
+| MDA-CF |A model based on autoencoder and CR by fusing multi-source information |https://github.com/a1622108/MDA-CF |
+|PMDFI |A framework with stacked autoencoders, RF, and logistic regression for prediction |NA |
+|MSCNE |A framework that incorporates multi-source biological information with stacked autoencoder and CNN | NA|
+|SMALF |A method based on autoencoder and XGBoost for predicting MDAs | https://github.com/dayunliu/SMALF|
+|MDA-CNN |A learning framework in a miRNA-gene-disease using autoencoder and CNN  |https://github.com/Issingjessica/MDA-CNN
+| AEMDA |A method using representation algorithms and deep autoencoder for inferring MDAs | https://github.com/CunmeiJi/AEMDA|
+| iMDA-BN|An improved model that utilizes Node2Vec to extract feature and uses stacked autoencoder and RF for discovering MDAs |NA |
+| DANE-MDA|A deep attributed network embedding method based on deep stacked autoencoder and RF for prediction |https://github.com/jiboya123/DANE-MDA |
+|DBNMDA |A deep learning-based model that adopts deep-belief network |NA |
+|SAEMD |An unsupervised computational model using staked autoencoder for identifying MDAs | https://github.com/xpnbs/SAEMDA|
+| DBMDA|A method based on autoencoder and rotation forest, which improves miRNA sequence similarity|NA |
+| VAEMDA| An unsupervised deep learning approach using variational autoencoder| NA|
+|SVAEMDA |A method based on variational autoencoder for identifying MDAs  | NA|
+|EPMDA |A method based on edge perturbation method using MLP to predict MDAs  |NA |
+|MLRDFM |A multi-view Laplacian regularized DeepFM model for discovering MDAs |https://github.com/XYDBCS/MLRDFM |
+| CNNDMP|A deep learning approach that employs dual convolutional neural network |NA |
+|CNNMDA | A method performs prediction using matrix factorization and convolutional neural network|NA |
+|DNRLCNN |A CNN framework utilizing latent feature matrix extraction with positive samples for predicting MDAs |NA |
+| HGCNMDA(1)|A PPI-based heterogeneous GCN model for MDA prediction | NA|
+| Zhu’s method| A matrix completion method based on GCN in heterogeneous miRNA-disease network|NA |
+| NIMCGCN|A computational method for discovering new MDAs based on neural inductive matrix completion with GCN | https://github.com/ljatynu/NIMCGCN/|
+|FCGCNMDA |A fully connected graph-based GCN method for predicting MDAs | NA|
+|MMGCN |A computational method that adaptively integrates multi-source similarity information with multi-view multichannel attention GCN | https://github.com/Txinru/MMGCN|
+|GSCENet |A learning framework in a miRNA-gene-disease network using GCN, CNN, and SENet |https://github.com/Appleabc123/GCSENet |
+|MVIFMDA | A multi-view information fusion-based method that utilizes GCN and CNN| NA|
+|MDA-GCNFTD |A method that discovers underlying MDAs based on GCN via graph sampling | https://github.com/a96123155/MDA-GCNFTG|
+|MINIMDA |A method that fuses mixed neighborhood information in multimodal networks |https://github.com/chengxu123/MINIMDA |
+|HGCNMDA(2) |A multi-relational GCN-based method that can allocate proper weights to various types of edges |https://github.com/weiba/HGCNMDA |
+|MuCoMiD |A multitask graph convolutional learning framework for identifying underlying MDAs  |https://git.l3s.uni-hannover.de/dong/cmtt |
+| SGNNMD|A signed GNN method for exploring deregulation types of MDAs| https://github.com/bubblecode/SGNNMD|
+| HGATMDA|A novel method that uses weighted DeepWalk to learn the dense embeddings and utilizes GAT to further obtain node representations |NA |
+| GRPAMDA| A new computational model for MDA prediction utilizing graph random propagation network and attention network|https://github.com/ZTangBo/GRPAMDA |
+|HGANMDA |A hierarchical graph attention network-based method for discovering novel MDAs | https://github.com/ZTangBo/HGANMDA|
+|MDPBMP |A graph attention network based on meta-path for discovering potential MDAs  |https://github.com/LiangYu-Xidian/MDPBMP |
+|GCAEMDA |A computational model using GCAE in miRNA-based and disease-based sub-networks |NA |
+| NIMGSA|A neural inductive matrix completion-based method with GCAE and self-attention mechanism |https://github.com/zhanglabNKU/NIMGSA |
+|GAEMDA |A designed GAE for identifying novel MDAs |https://github.com/chimianbuhetang/GAEMDA |
+|AGAEMD | A MDA prediction model that employs node-level attention GAE and inner product decoder | https://github.com/Zhhuizhe/AGAEMD|
+|VGAE-MDA |A variational graph auto-encoder-based method for MDA prediction |NA |
+|VGAMF | A new method for revealing MDAs with variational graph auto-encoder and non-negative matrix factorization|https://github.com/XYDBCS/VGAMF |
+|CEMDA |A framework uses meta-path features, which extracted by GRU |https://github.com/liubailong/CEMDA |
+| GMDA|A model based on GAN that integrates pairwise neighbor topologies, miRNA family, and cluster attributes |NA |
+
+NA denotes a lack of a code.
 
 ## Welcome to contribute
 
