@@ -10,14 +10,15 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [miRNA-disease association data resources](#miRNA-disease-association-data-resources)
   - [miRNA-related data resourcess](#miRNA-related-data-resources)
   - [Disease-related data resources](#Disease-related-data-resources)
-* [Deep learning models for predicting MDAs](#Deep-learning-models-for-predicting-MDAs) 
+* [Classical deep learning models for predicting MDAs](#Classical-deep-learning-models-for-predicting-MDAs) 
   - [Autoencoder](#Autoencoder)
   - [Multi-layer perceptron](#Multi-layer-perceptron)
   - [Convolutional neural network](#Convolutional-neural-network)
-  - [Other deep learning methonds](#Other-deep-learning-methonds)
-* [Graph neural network-based methods](#Graph-neural-network-based-methods) 
-  - [Graph feature extraction](#Graph-feature-extraction)
-  - [Graph matrix completion](#Graph-matrix-completion)
+* [Graph neural network-based methods for predicting MDAs](#Graph-neural-network-based-methods-for-predicting-MDAs) 
+  - [Graph convolutional network](#Graph-convolutional-network)
+  - [Graph attention network](#Graph-attention-network)
+  - [Graph autoencoder](#Graph-autoencoder)
+* [Other deep learning methonds](#Other-deep-learning-methonds) 
 
 ## Overview
 * We collect miRNA- and disease-related databases for MDA prediction, including miRNA-disease association databases, miRNA-related databases, and disease-related databases. 
@@ -57,7 +58,7 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 |DisGeNet   |Collects 30,170 diseases, 21,671 genes and 1124,942 associations|https://www.disgenet.org/|
 |LncRNADisease|Records 893 diseases, 1,206 miRNAs and 35,547 associations in human| http://www.rnanut.net/lncrnadisease/|
 
-## Deep learning models for predicting MDAs
+## Classical deep learning models for predicting MDAs
 ### Autoencoder
 1. **[DeepMDA]** Fu L, Peng Q. A deep ensemble model to predict miRNA-disease association, Scientific Reports 2017;7(1):14482. [**[Download]**](https://www.nature.com/articles/s41598-017-15235-6 "Click") [**[Code]**](https://github.com/sperfu/DeepMDA "Click") 
 
@@ -106,56 +107,58 @@ Issingjessica/MDA-CNN "Click")
 
 3. **[DNRLCNN]** Zhong J, Zhou W, Kang J et al. DNRLCNN: A CNN Framework for Identifying MiRNA–Disease Associations Using Latent Feature Matrix Extraction with Positive Samples, Interdisciplinary Sciences: Computational Life Sciences 2022;14(2):607-622. [**[Download]**](https://link.springer.com/article/10.1007/s12539-022-00509-z "Click") 
 
-### Other deep learning methonds
+## Graph neural models for predicting MDAs 
+### graph convolutional network
+1. **[HGCNMDA(1)]** Li C, Liu H, Hu Q et al. A Novel Computational Model for Predicting microRNA–Disease Associations Based on Heterogeneous Graph Convolutional Networks, Cells 2019;8(9):977. [**[Download]**](https://www.mdpi.com/2073-4409/8/9/1012 "Click") 
+
+2. **[Zhu’s method]** Zhu R, Ji C, Wang Y et al. Heterogeneous graph convolutional networks and matrix completion for miRNA-disease association prediction, Frontiers in bioengineering and biotechnology 2020;8:901. [**[Download]**](https://academic.oup.com/bib/article-abstract/22/5/bbaa391/6067881 "Click") 
+
+3. **[NIMCGCN]** Li J, Zhang S, Liu T et al. Neural inductive matrix completion with graph convolutional networks for miRNA-disease association prediction, Bioinformatics 2020;36(8):2538-2546. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9540266 "Click") [**[Code]**](https://github.com/QingwWu/MLGCNET "Click")
+
+4. **[FCGCNMDA]** Li J, Li Z, Nie R et al. FCGCNMDA: predicting miRNA-disease associations by applying fully connected graph convolutional networks, Molecular Genetics and Genomics 2020;295(5):1197-1209. [**[Download]**](https://academic.oup.com/bib/article-abstract/23/2/bbab604/6519791 "Click") [**[Code]**](https://github.com/sheng-n/MGATE "Click")
+
+5. **[MMGCN]** Tang X, Luo J, Shen C et al. Multi-view Multichannel Attention Graph Convolutional Network for miRNA–disease association prediction, Briefings in Bioinformatics 2021;22(6). [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S0925231221011012 "Click") 
+
+6. **[GSCENet]** Li Z, Jiang K, Qin S et al. GCSENet: A GCN, CNN and SENet ensemble model for microRNA-disease association prediction, PLOS Computational Biology 2021;17(6):e1009048. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9625721 "Click") 
+
+7. **[MVIFMDA]** Xie X, Wang Y, Sheng N et al. Predicting miRNA-disease associations based on multi-view information fusion, Frontiers in genetics 2022;13. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9625721 "Click") 
+
+8. **[MDA-GCNFTD]** Chu Y, Wang X, Dai Q et al. MDA-GCNFTG: identifying miRNA-disease associations based on graph convolutional networks via graph sampling through the feature and topology graph, Briefings in Bioinformatics 2021;22(6). [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
+
+9. **[MINIMDA]** Lou Z, Cheng Z, Li H et al. Predicting miRNA–disease associations via learning multimodal networks and fusing mixed neighborhood information, Briefings in Bioinformatics 2022. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
+
+10. **[HGCNMDA(2)]** Peng W, Che Z, Dai W et al. Predicting miRNA-disease associations from miRNA-gene-disease heterogeneous network with multi-relational graph convolutional network model, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2022:1-12. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
+
+11. **[MuCoMid]** Dong TN, Mucke S, Khosla M. MuCoMiD: A Multitask graph Convolutional Learning Framework for miRNA-Disease Association Prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2022:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
+
+12. **[SGNNMD]** Zhang G, Li M, Deng H et al. SGNNMD: signed graph neural network for predicting deregulation types of miRNA-disease associations, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
+
+### graph attention network
+1. **[HGATMDA]** Ji C, Wang Y, Ni J et al. Predicting miRNA-Disease Associations Based on Heterogeneous Graph Attention Networks, Frontiers in genetics 2021;12. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1476927119310114 "Click") 
+
+2. **[GRPAMDA]** Zhong T, Li Z, You Z-H et al. Predicting miRNA–disease associations based on graph random propagation network and attention network, Briefings in Bioinformatics 2022;23(2). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab361/6363052?login=false "Click") [**[Code]**](https://github.com/jademyC1221/GCRFLDA "Click")
+
+3. **[HGANMDA]** Li Z, Zhong T, Huang D et al. Hierarchical graph attention network for miRNA-disease association prediction, Molecular Therapy 2022;30(4):1775-1786. [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab407/6377515?login=false "Click") 
+
+4. **[MDPBMP]** Yu L, Zheng Y, Gao L. MiRNA–disease association prediction based on meta-paths, Briefings in Bioinformatics 2022;23(2). [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+### graph autoencoder
+1. **[GCAEMDA]** Li L, Wang Y-T, Ji C-M et al. GCAEMDA: Predicting miRNA-disease associations via graph convolutional autoencoder, PLOS Computational Biology 2021;17(12):e1009655. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+2. **[NIMGSA]** Jin C, Shi Z, Lin K et al. Predicting miRNA-Disease Association Based on Neural Inductive Matrix Completion with Graph Autoencoders and Self-Attention Mechanism, Biomolecules 2022;12(1):64. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+3. **[GAEMDA]** Li Z, Li J, Nie R et al. A graph auto-encoder model for miRNA-disease associations prediction, Briefings in Bioinformatics 2020;22(4). [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+4. **[AGAEMD]** Zhang H, Fang J, Sun Y et al. Predicting miRNA-disease associations via node-level attention graph auto-encoder, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2022:1-1. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+5. **[VGAE-MDA]** Ding Y, Tian L-P, Lei X et al. Variational graph auto-encoders for miRNA-disease association prediction, Methods 2021;192:25-34. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+6. **[VGAMF]** Shi Z, Zhang H, Jin C et al. Ding Y, Lei X, Liao B et al. Predicting miRNA-Disease Associations Based On Multi-View Variational Graph Auto-Encoder With Matrix Factorization, IEEE Journal of Biomedical and Health Informatics 2022;26(1):446-457. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+
+## Other deep learning methonds
 1. **[CEMDA]** Liu B, Zhu X, Zhang L et al. Combined embedding model for MiRNA-disease association prediction, BMC Bioinformatics 2021;22(1):161. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/liubailong/CEMDA "Click")
 
 2. **[GMDA]** Xuan P, Wang D, Cui H et al. Integration of pairwise neighbor topologies and miRNA family and cluster attributes for miRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab428/6385813?login=false "Click")
-
-## Graph neural models for predicting MDAs 
-### graph convolutional network
-1. **[HGCNMDA(1)]** Xuan P, Pan S, Zhang T et al. Graph Convolutional Network and Convolutional Neural Network Based Method for Predicting lncRNA-Disease Associations, Cells 2019;8(9). [**[Download]**](https://www.mdpi.com/2073-4409/8/9/1012 "Click") 
-
-2. **[Zhu’s method]** Wu Q-W, Xia J-F, Ni J-C et al. GAERF: predicting lncRNA-disease associations by graph auto-encoder and random forest, Briefings in Bioinformatics 2021;22(5). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/5/bbaa391/6067881 "Click") 
-
-3. **[NIMCGCN]** Wu QW, Cao RF, Xia J et al. Extra Trees Method for Predicting LncRNA-Disease Association Based on Multi-layer Graph Embedding Aggregation, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9540266 "Click") [**[Code]**](https://github.com/QingwWu/MLGCNET "Click")
-
-4. **[FCGCNMDA]** Sheng N, Huang L, Wang Y et al. Sheng N, Huang L, Wang Y et al. Multi-channel graph attention autoencoders for disease-related lncRNAs prediction, Briefings in Bioinformatics 2022;23(2). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/2/bbab604/6519791 "Click") [**[Code]**](https://github.com/sheng-n/MGATE "Click")
-
-5. **[MMGCN]** Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S0925231221011012 "Click") 
-
-6. **[GSCENet]** Xuan P, Zhan L, Cui H et al. Graph Triple-Attention Network for Disease-related LncRNA Prediction, IEEE Journal of Biomedical and Health Informatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9625721 "Click") 
-
-7. **[MDA-GCNFTD]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-8. **[MINIMDA]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-9. **[HGCNMDA(2)]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-10. **[MuCoMid]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-11. **[SGNNMD]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-### graph attention network
-1. **[HGATMDA]** Wu X, Lan W, Chen Q et al. Inferring LncRNA-disease associations based on graph autoencoder matrix completion, Computational Biology and Chemistry 2020;87:107282. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1476927119310114 "Click") 
-
-2. **[GRPAMDA]** Fan Y, Chen M, Pan X. GCRFLDA: scoring lncRNA-disease associations using graph convolution matrix completion with conditional random field, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab361/6363052?login=false "Click") [**[Code]**](https://github.com/jademyC1221/GCRFLDA "Click")
-
-3. **[HGANMDA]** Zhao X, Zhao X, Yin M. Heterogeneous graph attention network based on meta-paths for lncRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab407/6377515?login=false "Click") 
-
-4. **[MDPBMP]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-### graph autoencoder
-1. **[GCAEMDA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-2. **[NIMGSA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-3. **[GAEMDA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-4. **[AGAEMD]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-5. **[VGAE-MDA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-6. **[VGAMD]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
 
 ## Welcome to contribute
 If you would like to help contribute this list, please feel free to contact me by email:
