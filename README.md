@@ -1,4 +1,4 @@
-# 🏎💨vroom <a href='https:/vroom.r-lib.org'><img src='man/figures/logo.png' align="right" height="135" /></a>
+# 🏎💨miRNA-disease association prediction methods <a href='https:/DL_miRNA_disease_association_methods.r-lib.org'><img src='man/figures/logo.png' align="right" height="135" /></a>
 # A survey of deep learning and graph neural network for predicting miRNA-disease associations: databases, computational methods, challenges and future directions
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/DL_miRNA_disease_association_methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/DL_miRNA_disease_association_methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.DL_miRNA_disease_association_methods)
 
