@@ -25,7 +25,8 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Overview
 * We collect miRNA- and disease-related databases for MDA prediction, including miRNA-disease association databases, miRNA-related databases, and disease-related databases. 
 * We provide the first a comprehensive overview of 45 MDA prediction models based on deep learning and graph neural networks. We classify the two types of models in detail, deep learning models such as autoencoder, multi-layer perceptron, convolutional neural network, variational autoencoder, gated recurrent unit, and generative adversarial network; graph neural network models such as graph convolutional network, graph attention network, graph autoencoder, as shown below figure 1.
-![image](https://user-images.githubusercontent.com/95516781/193400787-c4ec3f72-5939-4f2c-8c6c-fe410cc0730d.png)
+![image](https://user-images.githubusercontent.com/95516781/195086616-534b5b54-beac-42ac-b0a0-9bdf66b73597.png)
+
 
 Fig 1: Deep learning and Graph neural network computational methods for MDA prediction. 
 
@@ -220,7 +221,7 @@ NA denotes a lack of a code.
 @article{DL_MDA,
   title={A survey of deep learning for predicting miRNA-disease associations: databases, computational methods, challenges, and future directions},
   author={Nan Sheng, Xuping Xie, Lan Huang, Shuangquan Zhang, Ling Gao and Yan Wang},
-  journal={Genomics, Proteomics & Bioinformatics (Awaiting submissions)},
+  journal={Genomics, Proteomics & Bioinformatics (Awaiting submission)},
   year={2022},
   publisher={ELSEVIER}
 }
