@@ -1,6 +1,6 @@
-# 🏎💨miRNA-disease association prediction methods <a href='https:/DL_miRNA_disease_association_methods.r-lib.org'></a>
+# 🏎💨miRNA-disease association prediction methods <a href='https:/DL-miRNA-disease-association-methods.r-lib.org'></a>
 # A survey of deep learning and graph neural network for predicting miRNA-disease associations: databases, computational methods, challenges and future directions
-![GitHub stars](https://img.shields.io/github/stars/sheng-n/DL_miRNA_disease_association_methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/DL_miRNA_disease_association_methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.DL_miRNA_disease_association_methods)
+![GitHub stars](https://img.shields.io/github/stars/sheng-n/DL-miRNA-disease-association-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/DL-miRNA-disease-association-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.DL-miRNA-disease-association-methods)
 
 ## What is miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.
