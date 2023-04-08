@@ -224,7 +224,7 @@ NA denotes a lack of a code.
   author={Nan Sheng, Xuping Xie, Yan Wang, Lan Huang, Shuangquan Zhang, Ling Gao and Hao Wang },
   journal={Briefings in Bioinformatics (Under Review)},
   year={2022},
-  publisher={ELSEVIER}
+  publisher={Oxford}
 }
 ```
 
