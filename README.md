@@ -1,5 +1,5 @@
 # 🏎💨miRNA-disease association prediction methods <a href='https:/DL-miRNA-disease-association-methods.r-lib.org'></a>
-# A survey of deep learning and graph neural network for predicting miRNA-disease associations: databases, computational methods, challenges and future directions
+# A survey of deep learning for detecting miRNA-disease associations: databases, computational methods, challenges, and future directions
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/DL-miRNA-disease-association-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/DL-miRNA-disease-association-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.DL-miRNA-disease-association-methods)
 <p align="center"> 
   Visitor count<br>
