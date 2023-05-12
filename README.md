@@ -226,9 +226,8 @@ NA denotes a lack of a code.
 @article{DL_MDA,
   title={A survey of deep learning for detecting miRNA-disease associations: databases, computational methods, challenges, and future directions},
   author={Nan Sheng, Xuping Xie, Yan Wang, Lan Huang, Shuangquan Zhang, Ling Gao and Hao Wang },
-  journal={Briefings in Bioinformatics (Under Review)},
-  year={2023},
-  publisher={Oxford}
+  journal={Computers in Biology and Medicine},
+  year={2023}
 }
 ```
 
