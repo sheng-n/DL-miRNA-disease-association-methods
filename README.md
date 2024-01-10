@@ -32,7 +32,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 * [A Summary of Methodology Details for predicting MDAs](#A-Summary-of-Methodology-Details-for-predicting-MDAs) 
 * [Cite](#Cite)
 * [ Welcome to contribute](#Welcome-to-contribute)
-* 
+  
 ## Overview
 * We collect miRNA- and disease-related databases for MDA prediction, including miRNA-disease association databases, miRNA-related databases, and disease-related databases. 
 * We provide the first a comprehensive overview of 45 MDA prediction models based on deep learning and graph neural networks. We classify the two types of models in detail, deep learning models such as autoencoder, multi-layer perceptron, convolutional neural network, variational autoencoder, gated recurrent unit, and generative adversarial network; graph neural network models such as graph convolutional network, graph attention network, graph autoencoder, as shown below figure 1.
