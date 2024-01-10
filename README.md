@@ -6,6 +6,11 @@
   <img src="https://profile-counter.glitch.me/sheng-n.DL-miRNA-disease-association-methods/count.svg" />
 </p>
 
+##Paper [**[Paper link]**](https://doi.org/10.1109/TCBB.2024.3351752 "Click") 
+
+## Cite
+Sheng N, Xie X, Wang Y, et al. A Survey of Deep Learning for Detecting miRNA-Disease Associations: Databases, Computational Methods, Challenges, and Future Directions. IEEE/ACM Transactions on Computational Biology and Bioinformatics, doi: 10.1109/TCBB.2024.3351752, 2024.
+
 ## What is miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.
 
@@ -220,17 +225,10 @@ Fig 1: Deep learning and Graph neural network computational methods for MDA pred
 
 NA denotes a lack of a code.
 
+## Cite
+Sheng N, Xie X, Wang Y, et al. A Survey of Deep Learning for Detecting miRNA-Disease Associations: Databases, Computational Methods, Challenges, and Future Directions. IEEE/ACM Transactions on Computational Biology and Bioinformatics, doi: 10.1109/TCBB.2024.3351752, 2024.
+
 ## Welcome to contribute
-
-```
-@article{DL_MDA,
-  title={A survey of deep learning for detecting miRNA-disease associations: databases, computational methods, challenges, and future directions},
-  author={Nan Sheng, Xuping Xie, Yan Wang, Lan Huang, Shuangquan Zhang, Ling Gao },
-  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics},
-  year={2023 Accept}
-}
-```
-
 If you would like to help contribute this list, please feel free to contact me by email:
 
 * Email: shengnan21@mails.jlu.edu.cn
