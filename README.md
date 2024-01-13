@@ -8,9 +8,6 @@
 
 ## Paper [**[Paper link]**](https://doi.org/10.1109/TCBB.2024.3351752 "Click") 
 
-## Cite
-Sheng N, Xie X, Wang Y, et al. A Survey of Deep Learning for Detecting miRNA-Disease Associations: Databases, Computational Methods, Challenges, and Future Directions. IEEE/ACM Transactions on Computational Biology and Bioinformatics, doi: 10.1109/TCBB.2024.3351752, 2024.
-
 ## What is miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) are a major class of important ncRNAs with the lengths more than 200 nucleotides. An increasing number of lncRNA have been found to be abnormally expressed in human diseases, and play a critical role in tumor development.
 
